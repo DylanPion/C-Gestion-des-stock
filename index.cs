@@ -29,7 +29,9 @@ class Program {
             Console.WriteLine("2. Rechercher un article par référence");
             Console.WriteLine("3. Ajouter un article au stock");
             Console.WriteLine("4. Supprimer un article par référence");
-            Console.WriteLine("5. Quitter");
+            Console.WriteLine("5. Rechercher un article par prix");
+            Console.WriteLine("6. Afficher tout les articles");
+            Console.WriteLine("7. Quitter");
 
             int choix;
             if (!int.TryParse(Console.ReadLine(), out choix)) {
