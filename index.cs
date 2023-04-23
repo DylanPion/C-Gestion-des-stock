@@ -51,6 +51,12 @@ class Program {
                     SupprimerArticle(stock);
                     break;
                 case 5:
+                    RechercherArticleParPrix(stock);
+                    break;
+                case 6:
+                    AfficherTousLesArticles(stock);
+                    break;
+                case 7:
                     Environment.Exit(0);
                     break;
                 default:
